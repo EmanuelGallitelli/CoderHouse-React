@@ -1,12 +1,13 @@
 import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
 import { Outlet, Link } from 'react-router-dom';
+import { GrGamepad } from 'react-icons/gr';
 
 export function PrincipalNav() {
     return (
         <>
         <Navbar bg="light" expand="lg">
             <Container>
-                <Navbar.Brand as={Link} to="/">Play-Box</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/"><GrGamepad/> Play-Box</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
