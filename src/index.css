@@ -1,4 +1,14 @@
-body {
+.App{
+  max-width: 1550px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: 0 2px 6px #0050d1;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +20,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
