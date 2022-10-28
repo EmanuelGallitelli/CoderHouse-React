@@ -40,7 +40,7 @@ export const Footer = () => {
                         <MDBRow className='mt-3'>
                             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4'>
-                                <SiCoffeescript />
+                                    <SiCoffeescript />
                                     Cupful
                                 </h6>
                                 <p>

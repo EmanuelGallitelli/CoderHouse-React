@@ -1,8 +1,10 @@
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Outlet, Link } from 'react-router-dom';
 import { SiCoffeescript } from 'react-icons/si';
 import { Fragment } from 'react';
-import Button from 'react-bootstrap/Button';
 
 export function PrincipalNav() {
     return (
