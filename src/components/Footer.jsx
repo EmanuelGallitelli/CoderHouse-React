@@ -2,6 +2,7 @@ import React from 'react'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { SiCoffeescript } from 'react-icons/si';
 
 export const Footer = () => {
     return (
@@ -25,7 +26,7 @@ export const Footer = () => {
                         <a href='' className='me-4 text-reset'>
                             <MDBIcon fab icon="instagram" />
                         </a>
-                        <a href='' className='me-4 text-reset'>
+                        <a href='https://www.linkedin.com/in/emanuel-gallitelli/' className='me-4 text-reset'>
                             <MDBIcon fab icon="linkedin" />
                         </a>
                         <a href='' className='me-4 text-reset'>
@@ -39,8 +40,8 @@ export const Footer = () => {
                         <MDBRow className='mt-3'>
                             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4'>
-                                    <MDBIcon icon="gem" className="me-3" />
-                                    Company name
+                                <SiCoffeescript />
+                                    Cupful
                                 </h6>
                                 <p>
                                     Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -50,11 +51,6 @@ export const Footer = () => {
 
                             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                                 <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                                <p>
-                                    <a href='#!' className='text-reset'>
-                                        Angular
-                                    </a>
-                                </p>
                                 <p>
                                     <a href='#!' className='text-reset'>
                                         React
@@ -67,7 +63,7 @@ export const Footer = () => {
                                 </p>
                                 <p>
                                     <a href='#!' className='text-reset'>
-                                        Laravel
+                                        Java
                                     </a>
                                 </p>
                             </MDBCol>
@@ -100,11 +96,11 @@ export const Footer = () => {
                                 <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                                 <p>
                                     <MDBIcon icon="home" className="me-2" />
-                                    New York, NY 10012, US
+                                    Buenos Aires, ARG
                                 </p>
                                 <p>
                                     <MDBIcon icon="envelope" className="me-3" />
-                                    info@example.com
+                                    emanuelgallitelli@gmail.com
                                 </p>
                                 <p>
                                     <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88

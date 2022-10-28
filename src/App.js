@@ -7,6 +7,7 @@ import { Mug } from './components/Mug'
 import { Bowl } from './components/Bowl'
 import { Info } from './components/Info'
 import { PrincipalNav } from './components/PrincipalNav'
+import { ItemCardContainer } from './components/ItemCardContainer';
 import { Footer } from './components/Footer'
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         </BrowserRouter>
       </header>
       <main>
-
+        <ItemCardContainer/>
       </main>
       <footer>
         <Footer />
