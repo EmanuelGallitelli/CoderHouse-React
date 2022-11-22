@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "stock": "1",
+        "categoria":"react",
+        "nombre": " El camino para aprender React: su viaje para dominar React.js simple pero pragmático",
+        "autor": "Robin Wieruch",
+        "calificacion": "9/10",
+        "valor": 50,
+        "img": "https://img.freepik.com/free-psd/mockup-half-open-book-standing-light-background_125540-1471.jpg?w=2000",
+        "reseña": "Este libro cubre todos los fundamentos de React JS with Hooks, así como implementaciones de características avanzadas como una búsqueda en el lado del cliente y del servidor. Aquí, encontrará que antes de pasar al nuevo capítulo, debe tener un conocimiento cristalino del capítulo anterior y, al mismo tiempo, resolverá problemas al final de cada capítulo. Por lo tanto, es un buen libro para principiantes que te enseña React JS desde cero. También le ayuda a crear la aplicación React paso a paso. Al final del libro, adquirirá un sólido conocimiento de cómo construir e implementar una aplicación React completamente funcional."
+    },
+    {
+        "id": "2",
+        "stock": "5",
+        "categoria":"react",
+        "nombre": "Reaccionar en acción",
+        "autor": "Mark Tielens Thomas",
+        "calificacion": "7/10",
+        "valor": 60,
+        "img": "https://img.freepik.com/free-psd/mockup-half-open-book-standing-light-background_125540-1471.jpg?w=2000",
+        "reseña": "Con este libro, comenzará su viaje con una introducción y conceptos básicos de React, trabajar con componentes y más. También se familiarizará con los ejemplos que se dan en cada capítulo. Este libro cubre renderizado, métodos de ciclo de vida, JSX, flujo de datos, formularios, enrutamiento y más. A medida que profundice en esto, aprenderá cómo trabajar con bibliotecas de terceros y probar los componentes de React. Es útil para quienes aprenden conceptos haciendo cosas prácticas. Pero, antes de lanzarse a él, debe conocer HTML, CSS y JavaScript."
+    },
+    {
+        "id": "3",
+        "stock": "11",
+        "categoria":"javascript",
+        "nombre": "Learning Javascript Design Patterns",
+        "autor": "O'Reilly",
+        "calificacion": "8/10",
+        "valor": 40,
+        "img": "https://img.freepik.com/free-psd/mockup-half-open-book-standing-light-background_125540-1471.jpg?w=2000",
+        "reseña":"Este libro es un referente pero aviso, no es para aprender Javascript desde cero porque da algunos conceptos por sabidos, por lo que te lo recomiendo para dar el siguiente paso.Esta joya en forma de libro técnico está escrita por Addy Osmani, engineering manager en Google, y te enseña un montón de patrones para hacer que tu código Javascript sea limpio y mantenible.Cada pattern que presenta te cuenta sus ventajas y desventajas. Patrón Singleton, Observer, Prototype, Factory, MVC…Una cosa más."
+    },
+    {
+        "id": "4",
+        "stock": "10",
+        "categoria":"javascript",
+        "nombre": "Human JavaScript",
+        "autor": "Henrik Joreteg",
+        "calificacion": "8/10",
+        "valor": 50,
+        "img": "https://img.freepik.com/free-psd/mockup-half-open-book-standing-light-background_125540-1471.jpg?w=2000",
+        "reseña":"Como el nombre indica este es un libro que, aunque técnico, está más pensado para recomendar buenas prácticas y dar una visión global sobre diferentes patrones que puedes usar al construir aplicaciones de Javascript que te faciliten la vida para mantenerlas y entenderlas.Creo que no es el mejor libro para empezar a aprender Javascript, pero sí es interesante cuando ya tienes la soltura suficiente para crear aplicaciones, ya que puede darte buenas ideas.Está escrito por Henrik Joreteg y aunque tiene una versión de pago, se puede leer completamente gratis en su web. Lo cuál os recomiendo porque es bastnte cortito."
+    },
+    {
+        "id": "5",
+        "stock": "4",
+        "categoria":"react",
+        "nombre": "FullStack React",
+        "autor": "Pepe",
+        "calificacion": "10/10",
+        "valor": 100,
+        "img": "https://img.freepik.com/free-psd/mockup-half-open-book-standing-light-background_125540-1471.jpg?w=2000",
+        "reseña": "Seis grandes autores han aportado el conocimiento en este libro. Si está aprendiendo React JS de más de una fuente, como tutoriales, blogs, etc., está perdiendo su valioso tiempo porque algunas publicaciones de blog están desactualizadas y los tutoriales están incompletos y son confusos. Con este libro, construirá una base sólida de React JS y, a medida que avance, dominará toda la biblioteca de JavaScript en poco tiempo.Este libro está bien escrito y bien organizado. Puede comprender cómo funcionan sus aplicaciones con los ejemplos que se dan en este libro. Cuando lo termine, podrá crear aplicaciones sólidas, bien probadas y personalizadas con React JS."
+    }
+]

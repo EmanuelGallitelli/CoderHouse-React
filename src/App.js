@@ -1,39 +1,35 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-
-import { Index } from './components/Index'
-import { Mug } from './components/Mug'
-import { Bowl } from './components/Bowl'
-import { Info } from './components/Info'
-import { PrincipalNav } from './components/PrincipalNav'
-import { ItemCardContainer } from './components/ItemCardContainer';
-import { Footer } from './components/Footer'
+import { Fragment } from 'react';
+import '../src/Assets/App.css';
+import NavBar from './Layout/NavBar';
+import ItemlistContainer from './Components/ItemlistContainer';
+import Footer from './Layout/Footer';
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import ItemDetailContainer from './Components/ItemDetailContainer';
+import  { CartProvider } from './Context/CartContext';
+import Cart from "../src/Layout/Cart"
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<PrincipalNav />}>
-              <Route Index element={<Index />} />
-              <Route path='Mug' element={<Mug />} />
-              <Route path='Bowl' element={<Bowl />} />
-              <Route path='Info' element={<Info />} />
+    <>
+  
+      <CartProvider>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+      <Route path="/" element={<ItemlistContainer/>} />
+      <Route path="/categoria/:categoria" element={<ItemlistContainer/>} />
+      <Route path="/:categoria/:libroID" element={<ItemDetailContainer/>} />
+      <Route path="/cart" element={<Cart/>} />
 
-              <Route path='*' element={<Navigate replace to="/" />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </header>
-      <main>
-        <ItemCardContainer/>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+      
+      </Routes>
+
+
+    </BrowserRouter>
+      <Footer />
+      </CartProvider>
+
+    </>
   );
 }
 
